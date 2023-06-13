@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background: #fbfcfe;
+  padding-top: 15%;
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* ---------------------------------------------------- */
+h5 {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 26px;
+  color: #0d1137;
+}
+.enter {
+  gap: 15px;
+  width: 561px;
+  height: 316px;
+  margin: 0 auto;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.15));
+  background: #f6f6f6;
+  padding-right: 20px;
+}
+.form {
+  flex-direction: column;
+}
+input {
+  width: 240px;
+  height: 50px;
+  border: none;
+  background-color: #f6f6f6;
+}
+:active, :hover, :focus{
+    outline: 0;
+    outline-offset: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+.id{
+    margin-top: 20px;
+}
+.password{
+margin-bottom: 20px;
+}
+.line {
+  border: 1px solid rgba(175, 178, 198, 0.4);
+  width: 240px;
+  height: 0px;
+}
+
+.button {
+    margin-top: 20px;
+  width: 240px;
+  height: 26px;
+  left: 761.03px;
+  top: 423px;
+  background: #0d1137;
+  border-radius: 2px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}
