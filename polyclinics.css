@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+body {
+  background: #fbfcfe;
+  padding-top: 10%;
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+a {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6e7aa4;
+}
+
+/* -------------------------------------------------- */
+.regions {
+  width: 65%;
+  margin: 0 auto;
+}
+/* -------------------------------------------------- */
+.search {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 40px;
+  /* border: 2px solid #abb4cd; */
+  border-radius: 90px;
+  display: flex;
+  justify-content: space-around;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.15));
+  background: #ffffff;
+}
+input {
+  width: 588px;
+  height: 50px;
+  background: #ffffff;
+  padding-left: 15px;
+  border-radius: 90px;
+  border-left: 2px solid #abb4cd;
+  border: none;
+  /* filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.15)); */
+}
+.search img {
+  margin-right: 10px;
+}
+
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+/* -------------------------------------------------- */
+.polyclinics-block {
+  width: 75%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.polyclinic__card-content {
+  flex-direction: column;
+  width: 285px;
+  height: 189.09px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding-top: 120px;
+}
+.polyclinic__card-content span {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  color: #415893;
+}
+.polyclinic__card-content span:first-child {
+  width: 70.97px;
+  padding: 5px 0 5px 10px;
+  background: rgba(222, 229, 255, 0.6);
+  border-radius: 3px;
+}
+.content {
+  position: absolute;
+  margin-bottom: 5%;
+  gap: 85px;
+}
+.hospital-img {
+  position: relative;
+  top: 104px;
+  left: 15px;
+}
+h6 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #142ca7;
+}
