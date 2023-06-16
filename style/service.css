@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+body {
+  background: #fbfcfe;
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* ------------------------------------- */
+h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+p {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  display: block;
+  margin: 15px 0;
+}
+.butt {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  width: 130px;
+  background: #0a122f;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 0 auto;
+  text-decoration: none;
+}
+/* ------------------------------------- */
+.service {
+  position: relative;
+  top: 50px;
+  right: 0;
+}
+.service-images {
+  align-items: end;
+  width: 88%;
+  margin: 0 auto;
+}
+/* ------------------------------------- */
+
+.service-choose {
+  width: 70%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  margin-top: 3%;
+}
+.dropdown {
+  margin-top: 3%;
+}
+.btn {
+  display: flex !important;
+  justify-content: space-between !important;
+  width: 470px !important;
+  background: #ffffff !important;
+  opacity: 0.5 !important;
+  box-shadow: 5px 5px 5px rgba(22, 21, 72, 0.15) !important;
+  border-radius: 10px !important;
+}
+.arrow-down{
+    margin-top: 15px;
+}
+.dropdown-item {
+  width: 470px !important;
+}
+span{
+font-weight: 400;
+font-size: 16px;
+line-height: 47px;
+text-align: center;
+color: #2D3582;
+margin: 0 40%;
+}
