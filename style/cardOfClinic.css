@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+body {
+  background: #fbfcfe;
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* -------------------------------------- */
+h1 {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 41px;
+  color: #ffffff;
+}
+h5 {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  color: #bcc9ec;
+  margin-bottom: 20px;
+}
+h6,
+p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+h6 {
+  font-weight: 600;
+}
+p {
+  font-weight: 100;
+  margin-left: 10px;
+}
+
+h4 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  color: #3251a3;
+  display: block;
+  margin: 5% 0;
+}
+h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 16px;
+  color: #182d62;
+  margin-left: 3%;
+}
+/* -------------------------------------- */
+
+.polyclinic {
+  width: 100%;
+  background: #3251a3;
+  padding: 60px 0;
+}
+.polyclinic__content {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.row {
+  gap: 50px;
+}
+.polyclinic__content_right__col1,
+.polyclinic__content_right__col2 {
+  flex-direction: column;
+  align-items: flex-start;
+}
+/* -------------------------------------- */
+
+.staff {
+  width: 75%;
+  margin: 0 auto;
+}
+.staff__card{
+    width: 50%;
+    margin-bottom: 5%;
+}
+.staff p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  line-height: 16px;
+  color: #182d62;
+  margin-top: 3%;
+}
+
+
+.intership,
+.education {
+  flex-direction: column;
+
+  text-align: left;
+  align-items: flex-start;
+}

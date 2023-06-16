@@ -238,7 +238,7 @@ li {
   font-size: 14px;
   line-height: 17px;
   color: #2e4b75;
-  list-style-image: url(./images/svg/greenCircle.svg);
+  list-style-image: url(./../images/svg/greenCircle.svg);
   padding-inline-start: 1ch;
   line-height: 30px;
 }
@@ -305,7 +305,7 @@ li {
 }
 
 .staff__list li {
-  list-style-image: url(./images/svg/staffPlus.svg);
+  list-style-image: url(./../images/svg/staffPlus.svg);
   padding-inline-start: 1ch;
 }
 .staff__list p {
