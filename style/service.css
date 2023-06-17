@@ -56,7 +56,7 @@ p {
   right: 0;
 }
 .service-images {
-  align-items: end;
+  align-items: end !important;
   width: 88%;
   margin: 0 auto;
 }
@@ -80,17 +80,20 @@ p {
   box-shadow: 5px 5px 5px rgba(22, 21, 72, 0.15) !important;
   border-radius: 10px !important;
 }
+.btn img{
+  margin-top: 8px;
+}
 .arrow-down{
     margin-top: 15px;
 }
 .dropdown-item {
   width: 470px !important;
 }
-span{
+h5{
 font-weight: 400;
 font-size: 16px;
 line-height: 47px;
 text-align: center;
-color: #2D3582;
+color: #2D3582 !important;
 margin: 0 40%;
 }

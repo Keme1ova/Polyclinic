@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+body {
+  background: #fbfcfe;
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* -------------------------------------------- */
+.blue-block {
+  background: #4575f0;
+  width: 100%;
+  height: 77px;
+  margin-bottom: 3%;
+}
+h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #182d62;
+}
+span {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: center;
+  color: #6d7eaa;
+}
+h3 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #182d62;
+}
+/* -------------------------------------------- */
+.admin-page__left_name {
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.admin-page__left_name img {
+  margin-bottom: 10px;
+}
+.admin-page__left_job,
+.admin-page__left_name {
+  width: 177px;
+  background: #ffffff;
+  box-shadow: 10px 10px 10px rgba(15, 24, 47, 0.1);
+  border-radius: 5px;   
+  padding: 30px 20px; 
+}

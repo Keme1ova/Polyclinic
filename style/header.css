@@ -1,53 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200;400;500;600;700&display=swap");
 * {
-margin: 0;
-padding: 0;
-border: 0;
-box-sizing: border-box;
-font-family: "Open Sans", sans-serif;
-text-decoration: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 body {
-background: #fbfcfe;
+  background: #fbfcfe;
 }
 .d-flex {
-display: flex;
-align-items: center;
-justify-content: space-around;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 header {
-    background: #FFFFFF;
-    width: 93%;
-    padding: 10px 0 10px 0;
-    
-  }
-  header a {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    color: #3451bc;
-  }
-  .logout {
-    width: 76px;
-    height: 30px;
-    left: 1290px;
-    top: 34px;
-    background: #d1dbff;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    padding-left: 15px;
-  }
-  .header__left {
-    width: 34%;
-  }
-  .header__left > div {
-    width: 54%;
-  }
-  .header__right {
-    width: 40%;
-  }
+  background: #ffffff;
+  width: 93%;
+  padding: 10px 0 10px 0;
+}
+header a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3451bc;
+  text-decoration: none;
+}
+.logout {
+  width: 76px;
+  height: 30px;
+  left: 1290px;
+  top: 34px;
+  background: #d1dbff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+.header__left {
+  width: 34%;
+}
+.header__left > div {
+  width: 54%;
+}
+.header__right {
+  width: 40%;
+}
