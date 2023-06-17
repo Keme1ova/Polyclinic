@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+body {
+  background: #fbfcfe;
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* ----------------------------------------- */
+.purple-block {
+  width: 100%;
+  height: 177px;
+  background: #e2daff;
+  border-radius: 5px;
+  padding: 60px 0 0 80px;
+  margin-bottom: 5%;
+}
+.purple-block h4 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 41px;
+  color: #22166a;
+}
+/* ----------------------------------------- */
+.qanda {
+  width: 75%;
+  margin: 0 auto;
+}
+.icon {
+    margin-bottom: 20px;
+  width: 50%;
+  justify-content: start;
+}
+.icon h6 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: #2f4377;
+}
+.icon img {
+  margin-right: 10px;
+}
+.question {
+  margin: 20px 0;
+}
+.hidden-text {
+  margin-top: 20px;
+  width: 85%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.hidden-text p {
+  border-left: 3px solid #fc7563;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #404d6e;
+  padding-left: 30px;
+}
+
+.grey-line {
+  width: 100%;
+  height: 0px;
+  margin: 0 auto;
+  border: 2px solid #d4def8;
+  margin-top: 20px;
+}
