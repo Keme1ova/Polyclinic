@@ -54,6 +54,7 @@ p {
   position: relative;
   top: 50px;
   right: 0;
+
 }
 .service-images {
   align-items: end !important;
@@ -83,7 +84,6 @@ p {
   padding: 3px 15px !important;
 }
 .a{
-
   width: 430px;
   justify-content: space-between !important;
   align-items: center !important;
