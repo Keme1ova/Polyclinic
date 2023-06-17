@@ -27,25 +27,27 @@ h2 {
 h4 {
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 22px;
   text-align: center;
   color: #22166a;
 }
 p,
 li {
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
-  line-height: 16px;
+  font-size: 14px;
+  line-height: 19px;
   color: #22166a;
 }
-.first-block__left p {
-  font-size: 12px;
+h2, h4{
+  display: block;
+  margin-bottom: 15px;
 }
 /* ------------------------------------------------- */
 .first-block {
-  width: 85%;
+  width: 75%;
   margin: 0 auto;
   gap: 20px;
 }
@@ -57,21 +59,20 @@ li {
   align-items: flex-start;
 }
 .first-block__left {
-  padding: 80px 40px;
+  padding: 60px 40px;
 }
 .first-block__right {
-  padding: 20px 25px;
+  padding: 50px 25px;
 }
 
 .content {
-  gap: 30px;
-}
-.content div {
-  width: 25%;
+  width: 70%;
+  flex-direction: column;
+  align-items: flex-start;
 }
 /* ----------------------------------------- */
 .second-block {
-  margin-top: 30px;
+  margin: 30px 0;
   flex-direction: column;
 }
 .second-block h4 {
@@ -88,7 +89,7 @@ li {
   gap: 40px;
 }
 .second-block__content___left {
-  width: 35%;
+  width: 95%;
 }
 .second-block__content___left p {
   margin-bottom: 40px;
@@ -97,11 +98,15 @@ li {
   width: 88px;
   background: #251151;
   border-radius: 3px;
-  padding: 5px 7px;
+  padding: 7px 15px;
 }
 .button a {
   font-size: 10px;
   color: #ffffff;
+  margin-left: 5px;
+}
+.second-block__content___middle{
+  width: 90%;
 }
 .second-block__content___middle ul li {
   list-style-image: url(./../images/svg/listSquar.svg);
@@ -122,7 +127,7 @@ li {
   margin-bottom: 5%;
 }
 .third-block__content {
-  width: 75%;
+  width: 67%;
   margin: 0 auto;
   gap: 30px;
 }
@@ -136,27 +141,31 @@ li {
 }
 /* ----------------------------------------- */
 .fourth-block {
-  width: 75%;
+  width: 70%;
   margin: 0 auto;
   align-items: flex-start;
 }
-.fourth-block__left p,
-.fourth-block__middle ul,
+.fourth-block h4{
+  text-align: left;
+}
+.fourth-block__content{
+  gap: 20px;
+}
+.fourth-block__left ul,
 .fourth-block__right ul {
   margin-top: 15px;
 }
 .fourth-block__left,
-.fourth-block__middle,
 .fourth-block__right {
-  width: 30%;
+  width: 49%;
 }
-.fourth-block__middle,
+.fourth-block__left,
 .fourth-block__right {
   border: 2px solid #0e20c4;
   border-radius: 10px;
-  padding: 10px 25px;
+  padding: 10px 55px;
 }
-.fourth-block__middle ul li {
+.fourth-block__left ul li {
   list-style-image: url(./../images/svg/orangeSquar.svg);
   padding-inline-start: 1ch;
 }
