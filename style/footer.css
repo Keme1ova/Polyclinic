@@ -21,6 +21,7 @@ body {
   /* margin-top: 30px; */
   padding: 95px 430px 97px 160px;
   background: #FBFCFE;
+  filter: drop-shadow(-4px -4px 10px rgba(0, 0, 0, 0.1));
 }
 .footer span {
   font-family: "Open Sans";

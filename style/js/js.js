@@ -17,3 +17,10 @@ window.onclick = function(event) {
 
 
 
+function flipArrow() {
+  var arrow = document.getElementById("arrow");
+  arrow.classList.toggle("flipped");
+}
+
+var arrowElement = document.getElementById("arrow");
+arrowElement.addEventListener("click", flipArrow);
