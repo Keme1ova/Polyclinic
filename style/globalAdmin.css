@@ -153,6 +153,7 @@ input {
   border-radius: 5px;
   filter: drop-shadow(4px 4px 4px rgba(159, 120, 120, 0.25));
   padding: 15px;
+  padding-bottom: 10px;
 }
 .polyclinic_edit__card h4 {
   font-weight: 400;

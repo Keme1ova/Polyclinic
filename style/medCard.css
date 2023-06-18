@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+body {
+  background: #fbfcfe;
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* --------------------------------------------------- */
+.blue-block {
+  width: 100%;
+  height: 77px;
+  background: #4575f0;
+  margin-bottom: 30px;
+}
+.content {
+  width: 80%;
+  margin: 0 auto;
+}
+.name {
+  width: 177px;
+  height: 151px;
+  background: #ffffff;
+  box-shadow: 10px 10px 10px rgba(15, 24, 47, 0.1);
+  border-radius: 5px;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.name h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #182d62;
+}
+
+.info {
+  width: 177px;
+  height: 326px;
+  background: #ffffff;
+  box-shadow: 10px 10px 10px rgba(15, 24, 47, 0.1);
+  border-radius: 5px;
+  padding: 10px 0 0 15px;
+}
+.line span,
+.info span {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: center;
+  color: #6d7eaa;
+}
+.line h6,
+.info h6 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #182d62;
+}
+.info__blue {
+  width: 149px;
+  height: 126px;
+  background: #e7eff7;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+/* --------------------------------------------------- */
+.content__right {
+  width: 890px;
+  height: 500px;
+  filter: drop-shadow(10px 10px 10px rgba(12, 34, 77, 0.15));
+  background: #ffffff;
+  border-radius: 0px 5px 5px 5px;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+.content__right h5 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 41px;
+  text-transform: uppercase;
+  color: #22166a;
+  text-align: center;
+}
+
+.left{
+    height: 100%;
+}
+.line {
+    width: 80%;
+    align-items: start;
+    justify-content: start;
+}
+
+.line h6{
+    margin-right: 10px;
+}

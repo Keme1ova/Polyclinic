@@ -56,13 +56,15 @@ h2, h4{
   flex-direction: column;
   background: #ffecce;
   border-radius: 10px;
-  align-items: flex-start;
+height: 302px;
+align-items: flex-start;
 }
 .first-block__left {
-  padding: 60px 40px;
+  width: 100%;
+  padding: 40px;
 }
 .first-block__right {
-  padding: 50px 25px;
+  padding: 50px;
 }
 
 .content {
